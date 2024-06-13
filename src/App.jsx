@@ -20,7 +20,7 @@ function App() {
         <div className=''>
           <img
           src={bgphoto}
-          className=' mt-[-590px] h-[720px] mx-[150px]'/>
+          className=' mt-[-590px] h-[725px] mx-[150px]'/>
         </div>
         <div className='text-center'>
 
@@ -83,7 +83,49 @@ function App() {
             <div><IoLogoJavascript size={'35px'}/></div>
         </div>
       </div>
+    </div>
+    <div className=' h-[725px] w-auto mt-40'>
+      <div className='grid grid-cols-2 h-[360px] '>
+        <div className='w-auto'>
+          <div className='m-4'>
+            <span className='text-[80px] font-black text-[#AF8F6F]'>/ABOUT ME</span>
+          </div>
+          <div className='mx-10 text-justify'>
+            <span className='text-sm'>Hello, I am Jerald D. Banalan, I'm 22-year-old from the city of Batangas. I am fourth year at Batangas State University TNEU waiting for graduation, where he is pursuing a Bachelor of Science in Information Technology with a major in Business Analytics.
 
+My academic path is driven by a profecient interest in UI/UX design and data analytics. As a new web designer, I'm enthusiastic about building intuitive and engaging digital experiences. My analytical abilities are similarly excellent, indicating a strong future in the field of business analytics.</span>
+          </div>
+        </div>
+
+        <div className=' bg-[#EADBC8]'>
+          <div className='m-4 text-right'>
+            <span className='text-[80px] font-black  text-white'>ACHIEVEMENT</span>
+          </div>
+          <div className='text-sm text-right mx-10 text-white font-semibold  list-none '>
+            <li><span className='ordinal'>Dean Lister 3rd Year First Semester 2022-2023 </span></li>
+            <li><span>Top 9 Overall in 3rd Year First Semester  2022-2023 </span></li>
+            <li><span>With Honors - Grade 12 First Quarter 2019-2020</span></li>
+            <li><span>Rank 9 - Grade 11 Second Quarter 2018-2019</span></li>
+            <li><span>Rank 8 - Grade 11 First Quarter 2018-2019</span></li>
+          </div>
+        </div>
+
+      </div>
+      <div className='grid grid-cols-2 h-[360px] '>
+
+        <div className='w-auto  bg-[#EADBC8]'>
+          <div className='m-4 text-center'>
+            <span className='text-5xl font-black text-white'>HOBBY</span>
+          </div>
+        </div>
+
+        <div className='w-auto '>
+          <div className='m-4 text-center'>
+            <span className='text-5xl font-black text-[#AF8F6F]'>Desired Job</span>
+          </div>
+        </div>
+
+      </div>
     </div>
     </>
   );
