@@ -1,6 +1,6 @@
 
 import bgphoto from '../src/assets/JeraldBg.png'
-import { FaHtml5, FaCss3, FaPython, FaFacebook, FaGithub, FaFacebookMessenger, FaCode   } from "react-icons/fa"
+import { FaHtml5, FaCss3, FaPython, FaFacebook, FaGithub, FaFacebookMessenger, FaCode, FaBasketballBall, FaGamepad, FaBook   } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io"
 import {BiLogoGmail} from 'react-icons/bi'
 import { MdAlternateEmail } from "react-icons/md"
@@ -84,7 +84,7 @@ function App() {
         </div>
       </div>
     </div>
-    <div className=' h-[725px] w-auto mt-40'>
+    {/* <div className=' h-[725px] w-auto mt-40'>
       <div className='grid grid-cols-2 h-[360px] '>
         <div className='w-auto'>
           <div className='m-4'>
@@ -92,8 +92,7 @@ function App() {
           </div>
           <div className='mx-10 text-justify'>
             <span className='text-sm'>Hello, I am Jerald D. Banalan, I'm 22-year-old from the city of Batangas. I am fourth year at Batangas State University TNEU waiting for graduation, where he is pursuing a Bachelor of Science in Information Technology with a major in Business Analytics.
-
-My academic path is driven by a profecient interest in UI/UX design and data analytics. As a new web designer, I'm enthusiastic about building intuitive and engaging digital experiences. My analytical abilities are similarly excellent, indicating a strong future in the field of business analytics.</span>
+              My academic path is driven by a profecient interest in UI/UX design and data analytics. As a new web designer, I'm enthusiastic about building intuitive and engaging digital experiences. My analytical abilities are similarly excellent, indicating a strong future in the field of business analytics.</span>
           </div>
         </div>
 
@@ -115,7 +114,7 @@ My academic path is driven by a profecient interest in UI/UX design and data ana
 
         <div className='w-auto  bg-[#EADBC8]'>
           <div className='m-4 text-center'>
-            <span className='text-5xl font-black text-white'>HOBBY</span>
+            <span className='text-5xl font-black text-white'>HOBBIES</span>
           </div>
         </div>
 
@@ -125,6 +124,90 @@ My academic path is driven by a profecient interest in UI/UX design and data ana
           </div>
         </div>
 
+      </div>
+    </div> */}
+    <div className=' h-[730px] w-auto mt-40'>
+      <div>
+        <div className='m-10 text-left '>
+          <span className='text-[200px] font-black text-[#A79277]'>/About Me</span>
+        </div>
+        <div className='text-center mx-[400px]'>
+          <p className='text-justify font-thin'>I am Jerald D. Banalan, I'm 22-year-old from the city of Batangas. I am fourth year at Batangas State University TNEU waiting for graduation, where he is pursuing a Bachelor of Science in Information Technology with a major in Business Analytics.
+          My academic path is driven by a profecient interest in UI/UX design and data analytics. As a new web designer, I'm enthusiastic about building intuitive and engaging digital experiences. My analytical abilities are similarly excellent, indicating a strong future in the field of business analytics.</p>
+        </div>
+      </div>
+    </div>
+
+    <div className='h-[730px] w-auto mt-40 bg-[#A79277]'>
+      <div>
+        <div className='w-auto text-right'>
+          <span className='text-[200px] font-black text-white'>Achievements</span>
+        </div>
+        <div className='text-sm text-right mx-10 text-white font-bold  list-none '>
+          <li><span className='tracking-widest'>Dean Lister 3rd Year First Semester 2022-2023 </span></li>
+          <li><span className='tracking-widest'>Top 9 Overall in 3rd Year First Semester  2022-2023 </span></li>
+          <li><span className='tracking-widest'>With Honors - Grade 12 First Quarter 2019-2020</span></li>
+          <li><span className='tracking-widest'>Rank 9 - Grade 11 Second Quarter 2018-2019</span></li>
+          <li><span className='tracking-widest'>Rank 8 - Grade 11 First Quarter 2018-2019</span></li>
+        </div>
+      </div>
+    </div>
+
+    <div className='h-[730px] w-auto mt-40'>
+      <div className='font-black m-10'>
+        <span className='text-[200px] text-[#A79277] text-left'>Hobbies</span>
+      </div>
+      <div className='flex justify-between'>
+
+        <div className='h-[200px] w-[250px] mx-16'>
+          <div className='w-auto mt-8 flex justify-center hover:animate-bounce'>
+            <FaBasketballBall size={'100px'} className=' text-orange-300'/>
+          </div>
+          <div className='text-center mt-4 '>
+            <span className='p-1 rounded-md bg-orange-300 text-white font-bold'>Play Sports</span>
+          </div>
+        </div>
+
+        <div className='h-[200px] w-[250px] mx-16'>
+          <div className='w-auto mt-8 flex justify-center hover:animate-bounce'>
+            <FaGamepad size={'100px'} className=' text-blue-300'/>
+          </div>
+          <div className='text-center mt-4 '>
+            <span className='p-1 rounded-md bg-blue-300 text-white font-bold'>Play Games</span>
+          </div>
+        </div>
+
+        <div className='h-[200px] w-[250px] mx-16'>
+          <div className='w-auto mt-8 flex justify-center hover:animate-bounce'>
+            <FaBook size={'100px'} className=' text-yellow-200'/>
+          </div>
+          <div className='text-center mt-4 '>
+            <span className='p-1 rounded-md bg-yellow-200 text-white font-bold'>Read Books</span>
+          </div>
+        </div>
+
+        <div className='h-[200px] w-[250px] mx-16'>
+          <div className='w-auto mt-8 flex justify-center hover:animate-bounce'>
+            <FaCode size={'100px'} className=' text-violet-300'/>
+          </div>
+          <div className='text-center mt-4 '>
+            <span className='p-1 rounded-md bg-violet-300 text-white font-bold'>Play Sports</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div className='h-[730px] w-auto mt-40 bg-[#A79277]'>
+      <div className='font-black m-10 text-right'>
+        <span className='text-[200px] text-white'>Desire Job</span>
+      </div>
+      <div className='text-lg text-right mx-14 text-white font-bold  list-none '>
+          <li><span className='tracking-widest'>Jr. Business Analyst</span></li>
+          <li><span className='tracking-widest'>Jr. Frontend Developers</span></li>
+          <li><span className='tracking-widest'>UI / UX Designer</span></li>
+          <li><span className='tracking-widest'>JR. Data Analyst</span></li>
+          <li><span className='tracking-widest'>Software Engineer</span></li>
       </div>
     </div>
     </>
