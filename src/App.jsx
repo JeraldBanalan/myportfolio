@@ -227,18 +227,16 @@ function App() {
             <span className=' text-3xl '>Zach Lavine Poster Card - GIMP </span>
           </div>
         </div>
-        {/* <div><img
-        src={bgCity}
-        className='h-[350px] w-[300px] m-2 '/></div>
-        <div><img
-        src={bgGtcut}
-        className='h-[350px] w-[300px] m-2'/></div>
-        <div><img
-        src={bgLavinePS}
-        className='h-[350px] w-[300px] m-2'/></div>
-        <div><img
-        src={bglavineGimp}
-        className='h-[350px] w-[300px] m-2'/></div> */}
+      </div>
+    </div>
+    <div className='h-[730px] w-auto mt-[1500px] bg-[#A79277]'>
+      <div className='font-black m-10 text-right'>
+        <span className='text-[200px] text-white'>My Project</span>
+      </div>
+      <div className='text-lg text-right mx-14 text-white font-bold  list-none '>
+          <li><span className='tracking-widest'>City Veterinary Management System - Frontend Developer Member</span></li>
+          <li><span className='tracking-widest'>Bet And Eat Ordering Menu System C++ Basic Fundamentals</span></li>
+          <li><span className='tracking-widest'>Payroll System - Netbeans</span></li>
       </div>
     </div>
     </>
