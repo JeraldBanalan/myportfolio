@@ -5,7 +5,11 @@ import bglavineGimp from '../src/assets/ZachLavineGimp.jpg'
 import bgLavinePS from '../src/assets/ZachLavinePhotoshop.jpg'
 import bgCity from '../src/assets/CityVetLogo.png'
 import bgGtcut from '../src/assets/GTCut3.jpg'
-
+import home from '../src/assets/HOME.png'
+import lifestyle from '../src/assets/LIFESTYLE.png'
+import basketball from '../src/assets/BASKETBALL.png'
+import running from '../src/assets/RUNNING.png'
+import product from '../src/assets/PRODUCT.png'
 import { FaHtml5, FaCss3, FaPython, FaFacebook, FaGithub, FaFacebookMessenger, FaCode, FaBasketballBall, FaGamepad, FaBook   } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io"
 import {BiLogoGmail} from 'react-icons/bi'
@@ -227,9 +231,40 @@ function App() {
             <span className=' text-3xl '>Zach Lavine Poster Card - GIMP </span>
           </div>
         </div>
+
+        
+        <div className='text-left mt-10 text-2xl'>
+          <span>WEB DESIGN</span>
+          <div className='flex'>
+            <img
+            src={home}
+            className='h-[250px] w-[300px] m-2'/>
+
+            <img
+            src={lifestyle}
+            className='h-[250px] w-[250px] m-2'/>
+
+            <img
+            src={basketball}
+            className='h-[250px] w-[250px] m-2'/>
+
+            <img
+            src={running}
+            className='h-[250px] w-[250px] m-2'/>
+
+            <img
+            src={product}
+            className='h-[250px] w-[300px] m-2'/>
+
+          </div>  
+          <div className='text-center'>
+          <span>NIKE E-COMMERCE WEB DESIGN</span>
+          </div>
+        </div>
+
       </div>
     </div>
-    <div className='h-[730px] w-auto mt-[1500px] bg-[#A79277]'>
+    <div className='h-[730px] w-auto mt-[1950px] bg-[#A79277]'>
       <div className='font-black m-10 text-right'>
         <span className='text-[200px] text-white'>My Project</span>
       </div>
