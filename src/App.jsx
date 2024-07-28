@@ -181,56 +181,11 @@ function App() {
       </div>
     </div>
 
-    <div className='h-[730px] w-auto mt-40'>
+    <div className='h-[730px] w-auto mt-36'>
       <div className='font-black m-10 text-right'>
         <span className='text-[200px] text-[#A79277]'>MY WORK</span>
       </div>
       <div className='text-lg text-right mx-14 text-[#A79277] font-bold grid '>
-
-        <div className='flex'>
-          <img
-          src={bgFreak}
-          className='h-[350px] w-[300px] m-2'/>
-          <div className='text-center w-full mt-[100px]'>
-            <span className=' text-3xl '>GIANNIS ANTETOKOUNMPO FREAK 5 POSTER CARD</span>
-          </div>
-        </div>
-
-        <div className='flex'>
-        <div className='text-center w-full mt-[100px]'>
-            <span className=' text-3xl '>CITY VET LOGO</span>
-          </div>
-          <img
-          src={bgCity}
-          className='h-[350px] w-[550px] m-2'/>
-        </div>
-
-        <div className='flex'>
-          <img
-          src={bgGtcut}
-          className='h-[350px] w-[300px] m-2'/>
-          <div className='text-center w-full mt-[100px]'>
-            <span className=' text-3xl '>NIKE GTCUT 3 POSTER CARD</span>
-          </div>
-        </div>
-
-        <div className='flex'>
-        <div className='text-center w-full mt-[100px]'>
-            <span className=' text-3xl '>Zach Lavine Poster Card - Adobe Photoshop</span>
-          </div>
-          <img
-          src={bgLavinePS}
-          className='h-[350px] w-[300px] m-2'/>
-        </div>
-
-        <div className='flex'>
-          <img
-          src={bglavineGimp}
-          className='h-[350px] w-[300px] m-2'/>
-          <div className='text-center w-full mt-[100px]'>
-            <span className=' text-3xl '>Zach Lavine Poster Card - GIMP </span>
-          </div>
-        </div>
 
         
         <div className='text-left mt-10 text-2xl'>
@@ -262,9 +217,38 @@ function App() {
           </div>
         </div>
 
+        <span>MY DIGITAL DESIGN</span>
+        <div className='flex m-2'>
+          
+          <div>
+            <img
+            src={bgCity}
+            className='h-[350px] w-[650px] m-2'/>
+          </div>
+          <div>
+            <img
+            src={bgFreak}
+            className='h-[350px] w-[300px] m-2'/>
+          </div>
+          <div>
+            <img
+            src={bgGtcut}
+            className='h-[350px] w-[300px] m-2'/>
+          </div>
+          <div>
+            <img
+            src={bgLavinePS}
+            className='h-[350px] w-[300px] m-2'/>
+          </div>
+          <div>
+            <img
+            src={bglavineGimp}
+            className='h-[350px] w-[300px] m-2'/>
+          </div>
+        </div>
       </div>
     </div>
-    <div className='h-[730px] w-auto mt-[1950px] bg-[#A79277]'>
+    <div className='h-[730px] w-auto mt-[550px] bg-[#A79277]'>
       <div className='font-black m-10 text-right'>
         <span className='text-[200px] text-white'>My Project</span>
       </div>
