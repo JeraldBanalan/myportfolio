@@ -187,7 +187,7 @@ function App() {
             <FaCode size={'100px'} className=' text-violet-300'/>
           </div>
           <div className='text-center mt-4 '>
-            <span className='p-1 rounded-md bg-violet-300 text-white font-bold'>Play Sports</span>
+            <span className='p-1 rounded-md bg-violet-300 text-white font-bold'>Discover</span>
           </div>
         </div>
 
