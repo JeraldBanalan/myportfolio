@@ -10,6 +10,11 @@ import lifestyle from '../src/assets/LIFESTYLE.png'
 import basketball from '../src/assets/BASKETBALL.png'
 import running from '../src/assets/RUNNING.png'
 import product from '../src/assets/PRODUCT.png'
+import Cloud from '../src/assets/Aws_cloudArc.png'
+import Arch from '../src/assets/Aws_cloudArc.png'
+import Lipa from '../src/assets/LipaCert.png'
+import Dean from '../src/assets/Deanlist.png'
+import SAP from '../src/assets/Sap_cert.png'
 import { FaHtml5, FaCss3, FaPython, FaFacebook, FaGithub, FaFacebookMessenger, FaCode, FaBasketballBall, FaGamepad, FaBook   } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io"
 import {BiLogoGmail} from 'react-icons/bi'
@@ -107,10 +112,10 @@ function App() {
       </div>
     </div>
 
-    <div className='h-[730px] w-auto mt-40 bg-[#A79277]'>
+    <div className='h-[750px] w-auto mt-40 bg-[#A79277]'>
       <div>
         <div className='w-auto text-right'>
-          <span className='text-[200px] font-black text-white'>Achievements</span>
+          <span className='text-[150px] font-semibold text-white'>Achievements</span>
         </div>
         <div className='text-sm text-right mx-10 text-white font-bold  list-none '>
           <li><span className='tracking-widest'>Dean Lister 3rd Year First Semester 2022-2023 </span></li>
@@ -120,9 +125,31 @@ function App() {
           <li><span className='tracking-widest'>Rank 8 - Grade 11 First Quarter 2018-2019</span></li>
         </div>
       </div>
+      <div>
+        <div className='w-auto text-left'>
+          <span className='text-[150px] font-semibold text-white'>Certification</span>
+        </div>
+        <div className='m-10 ml-20 grid grid-cols-5 my-[-15px] text-center gap-4'>
+          <div className=''>
+            <img src={Cloud} className='h-[150px] rounded-lg hover:h-[200px] duration-200 '/>
+          </div>
+          <div>
+            <img src={Arch} className='h-[150px] rounded-lg hover:h-[200px] duration-200'/>
+          </div>
+          <div>
+            <img src={Lipa} className='h-[150px] rounded-lg hover:h-[200px] duration-200'/>
+          </div>
+          <div>
+            <img src={Dean} className='h-[150px] rounded-lg hover:h-[200px] duration-200'/>
+          </div>
+          <div>
+            <img src={SAP} className='h-[150px] rounded-lg hover:h-[200px] duration-200'/>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div className='h-[730px] w-auto mt-40'>
+    <div className='h-[500px] w-auto mt-40'>
       <div className='font-black m-10'>
         <span className='text-[200px] text-[#A79277] text-left'>Hobbies</span>
       </div>
@@ -177,11 +204,13 @@ function App() {
           <li><span className='tracking-widest'>UI / UX Designer</span></li>
           <li><span className='tracking-widest'>JR. Data Analyst</span></li>
           <li><span className='tracking-widest'>Software Engineer</span></li>
+          <li><span className='tracking-widest'>Web Designer</span></li>
+          
       </div>
     </div>
 
-    <div className='h-[730px] w-auto mt-36'>
-      <div className='font-black m-10 text-right'>
+    <div className='h-[700px] w-auto mt-36'>
+      <div className='font-black m-8 text-left'>
         <span className='text-[200px] text-[#A79277]'>MY WORK</span>
       </div>
       <div className='text-lg text-right mx-14 text-[#A79277] font-bold grid '>
@@ -247,7 +276,7 @@ function App() {
         </div>
       </div>
     </div>
-    <div className='h-[730px] w-auto mt-[550px] bg-[#A79277]'>
+    <div className='h-[700px] w-auto mt-[550px] bg-[#A79277]'>
       <div className='font-black m-10 text-right'>
         <span className='text-[200px] text-white'>My Project</span>
       </div>
